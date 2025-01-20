@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     port: 10000,      // or any port Render expects
     host: '0.0.0.0',  // Ensures app is accessible from the network
+    allowedHosts: ['mapdrawingapp.onrender.com', 'localhost'], // Add the allowed hosts here
   },
 });
